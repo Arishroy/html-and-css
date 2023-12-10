@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tables in CSS</title>
+	<style>
+		table,tr,td{
+			border: 3px solid aqua;
+            border-collapse: collapse;
+		    width: 100%;
+		    padding: 15px;
+		    border-bottom: 5px solid #add;
+		    background-color:steelblue ;
+			
+		}
+		th{
+			color:yellow;
+            height:70px;
+            vertical-align: bottom;
+        }
+         
+    
+		tr:nth-child(3)
+       {
+       	color: white;
+       	text-align: center;
+
+       }
+</style>
+</head>
+<body>
+	<h3>CSS Table particular color to a specific row</h3>
+	<table>
+		<tr>
+			<th>First Name</th>
+            <th>Last Name</th>
+            <th>Mobile NO</th>
+        </tr>
+        <tr>
+        <td>Aryan</td>
+            <td>Kumar</td>
+            <td>8865955722</td>
+         </tr>
+         <tr>
+        <td>Tanu</td>
+            <td>Pal</td>
+            <td>8865955722</td>
+         </tr>
+         <tr>
+        <td>sakshi</td>
+            <td>Kumari</td>
+            <td>225660055</td>
+         </tr>
+ </table>           
+</body>
+</html>
